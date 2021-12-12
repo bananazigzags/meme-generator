@@ -1,29 +1,22 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background: linear-gradient(to right, rgba(103, 34, 128, 1), rgba(166, 38, 211, 1));
     height: 65px;
-}
-
-.header__logo {
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
+    color: white;
+    padding: 20px;
 }
 
 .header__image {
-    height: 30px;
+    height: 100%;
+    margin-right: 6px;
 }
 
 .header__name {
     font-size: 16px;
-    color: white;
-    padding: 0px 5px;
 }
 
 .header__info {
     font-size: 12px;
-    color: white;
-    padding: 0 20px;
+    margin-left: auto;
 }
